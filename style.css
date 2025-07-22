@@ -43,14 +43,20 @@ button{
     font-weight: bold;
     font-size: 20px;
     background-color: #a4f018;
+    transition: background-color 0.2s ease;  
+    cursor: pointer; 
 }
 button:hover{
     transform: translateY(-0.5px);
+    background-color: #f8ff7c;
 }
 .zero{
     width: 120px;
     border-radius: 42px;
     box-shadow: inset 2px 2px 1px rgb(241, 255, 90),6px 6px 13px black;
+}
+.zero:hover {
+  background-color: #f8ff7c;
 }
 .long{
     margin-left: 77px;
@@ -64,6 +70,9 @@ button:hover{
     background-color: #FF9500;
     box-shadow: inset 2px 2px 1px #FF9500,6px 6px 13px black;
 }
+.spe:hover {
+  background-color: #fabb5c; 
+}
 .copyright{
     margin-top: 80px;
     text-decoration: none;
@@ -74,5 +83,4 @@ a{
     text-decoration: none;
     color: #D4D4D2;
 }
-    
-    
+
