@@ -60,3 +60,19 @@ button:hover{
     background-color: #D4D4D2;
     color: black;
 }
+.spe{
+    background-color: #FF9500;
+    box-shadow: inset 2px 2px 1px #FF9500,6px 6px 13px black;
+}
+.copyright{
+    margin-top: 80px;
+    text-decoration: none;
+    flex-flow: column;
+    font-size: 15px;
+}
+a{
+    text-decoration: none;
+    color: #D4D4D2;
+}
+    
+    
